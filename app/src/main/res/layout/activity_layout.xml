@@ -47,6 +47,13 @@
         android:layout_width="match_parent"
         android:layout_height="10dp"/>
 
+    <RelativeLayout
+        android:id="@+id/buttonBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+    </RelativeLayout>
 
 
 
