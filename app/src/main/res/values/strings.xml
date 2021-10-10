@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ColorGameX</string>
+    <string name="app_name">APLAS COLOR GAME</string>
+    <string name="keyword">quiz@123</string>
+
+    <integer name="minScore">0</integer>
+    <integer name="maxScore">100</integer>
+    <integer name="counter">10</integer>
+    <integer name="mintimer">0</integer>
+    <integer name="maxtimer">5</integer>
 </resources>
