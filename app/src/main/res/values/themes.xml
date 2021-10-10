@@ -19,4 +19,11 @@
         <item name="android:paddingBottom">1pt</item>
         <item name="android:textColor">@color/textColor</item>
     </style>
+
+    <style name="ColoredButton" >
+        <item name="android:layout_width">50pt</item>
+        <item name="android:layout_height">20pt</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
 </resources>
