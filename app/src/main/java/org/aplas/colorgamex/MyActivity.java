@@ -11,4 +11,13 @@ public class MyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout);
     }
+
+    public void openGame(View v) {
+    }
+
+    public void startGame(View v) {
+    }
+
+    public void submitColor(View v) {
+    }
 }
