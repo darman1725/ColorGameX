@@ -204,8 +204,14 @@
             android:progress="@integer/minScore"
             android:max="@integer/maxScore" />
 
-    </LinearLayout>
+        <Switch
+            android:id="@+id/isMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="With minus score counter"
+            android:paddingBottom="20dp"/>
 
+    </LinearLayout>
 
 
 </LinearLayout>
