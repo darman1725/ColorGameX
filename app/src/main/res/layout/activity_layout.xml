@@ -96,6 +96,13 @@
             android:onClick="submitColor"
             android:layout_centerInParent="true"/>
 
+        <Button
+            android:id="@+id/color3"
+            style="@style/ColoredButton"
+            android:text="C"
+            android:background="@color/clrBlue"
+            android:onClick="submitColor"
+            android:layout_alignParentEnd="true"/>
 
     </RelativeLayout>
 
