@@ -117,6 +117,13 @@
         android:layout_height="wrap_content"
         android:visibility="invisible">
 
+        <Button
+            android:id="@+id/color4"
+            style="@style/ColoredButton"
+            android:text="D"
+            android:background="@color/clrGreen"
+            android:onClick="submitColor" />
+
     </RelativeLayout>
 
     <LinearLayout
