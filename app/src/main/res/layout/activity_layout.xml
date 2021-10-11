@@ -196,6 +196,14 @@
             android:layout_width="match_parent"
             android:layout_height="10dp"/>
 
+        <ProgressBar
+            android:id="@+id/progressScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProgressBar"
+            android:progress="@integer/minScore"
+            android:max="@integer/maxScore" />
+
     </LinearLayout>
 
 
