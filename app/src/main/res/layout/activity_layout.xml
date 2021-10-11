@@ -124,6 +124,14 @@
             android:background="@color/clrGreen"
             android:onClick="submitColor" />
 
+        <Button
+            android:id="@+id/color5"
+            style="@style/ColoredButton"
+            android:text="E"
+            android:background="@color/clrOrange"
+            android:onClick="submitColor"
+            android:layout_centerInParent="true"/>
+
     </RelativeLayout>
 
     <LinearLayout
