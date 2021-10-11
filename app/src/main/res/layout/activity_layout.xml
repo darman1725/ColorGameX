@@ -88,6 +88,15 @@
             android:background="@color/clrRed"
             android:onClick="submitColor"/>
 
+        <Button
+            android:id="@+id/color2"
+            style="@style/ColoredButton"
+            android:text="B"
+            android:background="@color/clrYellow"
+            android:onClick="submitColor"
+            android:layout_centerInParent="true"/>
+
+
     </RelativeLayout>
 
     <Space
