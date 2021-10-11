@@ -81,7 +81,6 @@ public class MyActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Password is wrong", Toast.LENGTH_LONG).show();
         }
     }
-
     public void startGame(View v) {
         if (!isStarted) {
             progress.setProgress(0);
@@ -91,7 +90,6 @@ public class MyActivity extends AppCompatActivity {
             newGameStage();
         }
     }
-
     public void submitColor(View v) {
         if (isStarted){
             String charCode = ((Button)v).getText().toString();

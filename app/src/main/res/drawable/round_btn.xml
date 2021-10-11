@@ -3,7 +3,6 @@
     android:shape="rectangle" >
 
     <corners android:radius="20dp"/>
-
     <gradient
         android:gradientRadius="100dp"
         android:centerX="50%"
@@ -12,15 +11,12 @@
         android:startColor="#a9b7d2"
         android:endColor="#7003a6"
         android:type="radial"/>
-
     <size
         android:height="50dp"
         android:width="100dp"/>
-
     <padding
         android:left="7dp"
         android:right="7dp"
         android:top="7dp"
         android:bottom="7dp"/>
-
 </shape>
