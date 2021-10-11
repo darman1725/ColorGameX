@@ -211,6 +211,18 @@
             android:text="With minus score counter"
             android:paddingBottom="20dp"/>
 
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:textStyle="bold"
+            android:textSize="8pt"
+            android:layout_gravity="center"
+            android:text="Start Game"
+            android:background="@drawable/round_btn"
+            android:drawableBottom="@drawable/ic_resicon"
+            android:onClick="startGame"/>
+
     </LinearLayout>
 
 
