@@ -33,11 +33,11 @@
         <Button
             android:id="@+id/submitBtn"
             android:layout_width="wrap_content"
-            android:layout_height="38.7dp"
-            android:backgroundTint="@android:color/darker_gray"
+            android:layout_height="38dp"
+            android:text="Enter"
             android:textColor="@color/black"
             android:onClick="openGame"
-            android:text="Enter" />
+            android:backgroundTint="@android:color/darker_gray"/>
 
 
     </LinearLayout>
@@ -224,7 +224,7 @@
             android:textSize="8pt"
             android:layout_gravity="center"
             android:text="Start Game"
-            android:backgroundTint="@drawable/round_btn"
+            android:background="@drawable/round_btn"
             android:drawableBottom="@drawable/ic_resicon"
             android:onClick="startGame"/>
     </LinearLayout>
